@@ -1,6 +1,6 @@
-# OCB Electricity Lamps Mod - 7 Days to Die (A20) Addon
+# OCB Electricity Lamps Mod - 7 Days to Die (v2.4) Addon
 
-This (A20) Mod adds new light blocks that support coloring,
+This (v2.4) Mod adds new light blocks that support coloring,
 dimming and beam angle adjustments (for spotlights only).
 You need to disable EAC to use this mod!
 

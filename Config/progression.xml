@@ -1,13 +1,10 @@
-<configs>
-
-	<append xpath="/progression/perks/perk[@name='perkArtOfMiningLantern']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @value='1' and @level='1']/@tags">,ocbLanternLamp</append>
-	<append xpath="/progression/perks/perk[@name='perkTechJunkie8Complete']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @value='1' and @level='1']/@tags">,ocbRoadBarricade</append>
-
-	<append xpath="/progression/perks/perk[@name='perkAdvancedEngineering']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @value='1' and @level='2,5']/@tags">,ocbSignLampVariantHelper,ocbDeskLampVariantHelper</append>
-	<append xpath="/progression/perks/perk[@name='perkAdvancedEngineering']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @value='1' and @level='3,5']/@tags">,ocbSmallCeilLampVariantHelper,ocbSmallWallLampVariantHelper</append>
-	<append xpath="/progression/perks/perk[@name='perkAdvancedEngineering']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @value='1' and @level='3,5']/@tags">,ocbMediumCeilLampVariantHelper,ocbMediumWallLampVariantHelper</append>
-	<append xpath="/progression/perks/perk[@name='perkAdvancedEngineering']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @value='1' and @level='4,5']/@tags">,ocbSpecialCeilLampVariantHelper</append>
-	<append xpath="/progression/perks/perk[@name='perkAdvancedEngineering']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @value='1' and @level='5']/@tags">,ocbSpecialGroundLampVariantHelper</append>
-	<!-- <append xpath="/progression/perks/perk[@name='perkAdvancedEngineering']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @value='1' and @level='5']/@tags">,ocbRoadBarricade</append> -->
-
-</configs>
+<config>
+	<insertAfter xpath="/progression/crafting_skills/crafting_skill[@name='craftingElectrician']/display_entry[@unlock_level='25']">
+		<display_entry icon="lightIndustrialMountedWallRed" name_key="coloredLightsT1" has_quality="false" unlock_level="25">
+			<unlock_entry item="ColoredLightsVariantHelper" unlock_tier="1"/>
+		</display_entry>
+	</insertAfter>
+	<append xpath="/progression/crafting_skills/crafting_skill[@name='craftingElectrician']/effect_group">
+		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="25,100" value="1" tags="ColoredLightsVariantHelper"/>
+	</append>
+</config>

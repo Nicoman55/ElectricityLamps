@@ -77,3 +77,9 @@ ocbMastLamp01,blocks,block,"Powered Mast Lamp"
 ocbStreetLight01,blocks,block,"Powered Street Light"
 
 bookTechJunkie8Complete,UI,Menu,"All Tech Junkie Volumes"
+
+ColoredLightsVariantHelper,block,block,Colored Lights - Variable Shape Helper,Farbige Lichter - Variabler Hilfsblock
+blockVariantHelperGroupDesc,UI,Menu,Colored lighting variants. Put crafted block on your hotbar hold Reload action and select Shape entry from the radial menu.,
+coloredLightsT1,progression,Electrician,Colored Lights,Farbige Lichter
+
+coloredLightsPowerWarning,UI,Menu,Warning! Power limit exceeded!,Warnung! Leistungsgrenze überschritten!

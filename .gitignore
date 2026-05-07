@@ -1,4 +1,6 @@
-/build
-/.vs
+/bin
+/obj
+/packages
 .vstags
 *.pdb
+packages.config
