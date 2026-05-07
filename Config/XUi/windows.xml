@@ -1,12 +1,12 @@
 <configs>
 	<append xpath="/windows">
-		<window name="windowElectricityLampsStats" width="228" height="511" panel="Left" controller="ColoredLights_Port.XUiC_ElectricityLampsStats, ColoredLights_Port" >
+		<window name="windowElectricityLampsStats" width="228" height="511" panel="Left" controller="ElectricityLamps.XUiC_ElectricityLampsStats, ElectricityLamps" >
 			<panel name="header" height="43" depth="1" backgroundspritename="ui_game_panel_header">
 				<sprite depth="2" name="windowIcon" style="icon32px" pos="5,-5" sprite="ui_game_symbol_resource"/>
 				<label style="header.name" text="OPTIONS" text_key="xuiLightOptions" />
 			</panel>
 			<rect name="content" depth="0" pos="0,-46" height="485">
-				<label name="lblPowerWarning" text_key="coloredLightsPowerWarning" font_size="24" color="[red]" width="228" height="30" pos="0,-457" justify="Center" visible="false" depth="3"/>
+				<label name="lblPowerWarning" text_key="ElectricityLampsPowerWarning" font_size="24" color="[red]" width="228" height="30" pos="0,-457" justify="Center" visible="false" depth="3"/>
 				<sprite depth="4" name="backgroundMain" sprite="menu_empty3px" color="[black]" type="sliced" fillcenter="false" />
 				<sprite depth="1" color="[darkGrey]" type="sliced" width="228" height="480" pos="0,-3" />
 				<rect depth="2" pos="6,-5">

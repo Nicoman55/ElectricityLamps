@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xml>
-	<Name value="ColoredLights"/>
-	<DisplayName value="Colored_Lights_Mod"/>
+	<Name value="ElectricityLamps"/>
+	<DisplayName value="ElectricityLamps_Mod"/>
 	<Version value="1.0.1"/>
 	<Author value="Nico"/>
 	<Website value=""/>

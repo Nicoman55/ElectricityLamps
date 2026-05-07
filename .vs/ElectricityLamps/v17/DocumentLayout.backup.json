@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Chris\\Desktop\\Games\\7 Days to Die\\GitHub\\ElectricityLamps\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2A46E145-92ED-4B6A-90EF-C5D41B4A01DF}|ColoredLights_Port.csproj|c:\\users\\chris\\desktop\\games\\7 days to die\\github\\electricitylamps\\harmony\\xuic_electricitylampswindowgroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A46E145-92ED-4B6A-90EF-C5D41B4A01DF}|ColoredLights_Port.csproj|solutionrelative:harmony\\xuic_electricitylampswindowgroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2A46E145-92ED-4B6A-90EF-C5D41B4A01DF}|ElectricityLamps.csproj|c:\\users\\chris\\desktop\\games\\7 days to die\\github\\electricitylamps\\harmony\\blockelectricitylight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A46E145-92ED-4B6A-90EF-C5D41B4A01DF}|ElectricityLamps.csproj|solutionrelative:harmony\\blockelectricitylight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2A46E145-92ED-4B6A-90EF-C5D41B4A01DF}|ColoredLights_Port.csproj|c:\\users\\chris\\desktop\\games\\7 days to die\\github\\electricitylamps\\harmony\\xuic_electricitylampsstats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A46E145-92ED-4B6A-90EF-C5D41B4A01DF}|ColoredLights_Port.csproj|solutionrelative:harmony\\xuic_electricitylampsstats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2A46E145-92ED-4B6A-90EF-C5D41B4A01DF}|ElectricityLamps.csproj|c:\\users\\chris\\desktop\\games\\7 days to die\\github\\electricitylamps\\harmony\\xuic_electricitylampsstats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A46E145-92ED-4B6A-90EF-C5D41B4A01DF}|ElectricityLamps.csproj|solutionrelative:harmony\\xuic_electricitylampsstats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2A46E145-92ED-4B6A-90EF-C5D41B4A01DF}|ColoredLights_Port.csproj|C:\\Users\\Chris\\Desktop\\Games\\7 Days to Die\\GitHub\\ElectricityLamps\\harmony\\tileentityelectricitylightblock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A46E145-92ED-4B6A-90EF-C5D41B4A01DF}|ColoredLights_Port.csproj|solutionrelative:harmony\\tileentityelectricitylightblock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2A46E145-92ED-4B6A-90EF-C5D41B4A01DF}|ElectricityLamps.csproj|c:\\users\\chris\\desktop\\games\\7 days to die\\github\\electricitylamps\\harmony\\ocbelectricitylamps.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A46E145-92ED-4B6A-90EF-C5D41B4A01DF}|ElectricityLamps.csproj|solutionrelative:harmony\\ocbelectricitylamps.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2A46E145-92ED-4B6A-90EF-C5D41B4A01DF}|ColoredLights_Port.csproj|c:\\users\\chris\\desktop\\games\\7 days to die\\github\\electricitylamps\\harmony\\blockelectricitylight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A46E145-92ED-4B6A-90EF-C5D41B4A01DF}|ColoredLights_Port.csproj|solutionrelative:harmony\\blockelectricitylight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2A46E145-92ED-4B6A-90EF-C5D41B4A01DF}|ElectricityLamps.csproj|c:\\users\\chris\\desktop\\games\\7 days to die\\github\\electricitylamps\\harmony\\tileentityelectricitylightblock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A46E145-92ED-4B6A-90EF-C5D41B4A01DF}|ElectricityLamps.csproj|solutionrelative:harmony\\tileentityelectricitylightblock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2A46E145-92ED-4B6A-90EF-C5D41B4A01DF}|ColoredLights_Port.csproj|c:\\users\\chris\\desktop\\games\\7 days to die\\github\\electricitylamps\\harmony\\ocbelectricitylamps.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A46E145-92ED-4B6A-90EF-C5D41B4A01DF}|ColoredLights_Port.csproj|solutionrelative:harmony\\ocbelectricitylamps.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2A46E145-92ED-4B6A-90EF-C5D41B4A01DF}|ElectricityLamps.csproj|c:\\users\\chris\\desktop\\games\\7 days to die\\github\\electricitylamps\\harmony\\xuic_electricitylampswindowgroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A46E145-92ED-4B6A-90EF-C5D41B4A01DF}|ElectricityLamps.csproj|solutionrelative:harmony\\xuic_electricitylampswindowgroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,24 +30,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "BlockElectricityLight.cs",
               "DocumentMoniker": "C:\\Users\\Chris\\Desktop\\Games\\7 Days to Die\\GitHub\\ElectricityLamps\\Harmony\\BlockElectricityLight.cs",
               "RelativeDocumentMoniker": "Harmony\\BlockElectricityLight.cs",
               "ToolTip": "C:\\Users\\Chris\\Desktop\\Games\\7 Days to Die\\GitHub\\ElectricityLamps\\Harmony\\BlockElectricityLight.cs",
               "RelativeToolTip": "Harmony\\BlockElectricityLight.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAE0BAAAAAAAAAAAcwGwBAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-07T08:20:45.009Z",
+              "WhenOpened": "2026-05-07T11:20:29.263Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "OcbElectricityLamps.cs",
               "DocumentMoniker": "C:\\Users\\Chris\\Desktop\\Games\\7 Days to Die\\GitHub\\ElectricityLamps\\Harmony\\OcbElectricityLamps.cs",
               "RelativeDocumentMoniker": "Harmony\\OcbElectricityLamps.cs",
@@ -55,12 +55,12 @@
               "RelativeToolTip": "Harmony\\OcbElectricityLamps.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-07T08:49:10.02Z",
+              "WhenOpened": "2026-05-07T11:20:28.489Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "TileEntityElectricityLightBlock.cs",
               "DocumentMoniker": "C:\\Users\\Chris\\Desktop\\Games\\7 Days to Die\\GitHub\\ElectricityLamps\\Harmony\\TileEntityElectricityLightBlock.cs",
               "RelativeDocumentMoniker": "Harmony\\TileEntityElectricityLightBlock.cs",
@@ -68,7 +68,7 @@
               "RelativeToolTip": "Harmony\\TileEntityElectricityLightBlock.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-07T08:20:53.567Z",
+              "WhenOpened": "2026-05-07T11:20:27.844Z",
               "EditorCaption": ""
             },
             {
@@ -79,22 +79,22 @@
               "RelativeDocumentMoniker": "Harmony\\XUiC_ElectricityLampsStats.cs",
               "ToolTip": "C:\\Users\\Chris\\Desktop\\Games\\7 Days to Die\\GitHub\\ElectricityLamps\\Harmony\\XUiC_ElectricityLampsStats.cs",
               "RelativeToolTip": "Harmony\\XUiC_ElectricityLampsStats.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAJkBAAAAAAAAAAAcwK4BAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-07T08:51:43.727Z",
+              "WhenOpened": "2026-05-07T11:20:27.174Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "XUiC_ElectricityLampsWindowGroup.cs",
               "DocumentMoniker": "C:\\Users\\Chris\\Desktop\\Games\\7 Days to Die\\GitHub\\ElectricityLamps\\Harmony\\XUiC_ElectricityLampsWindowGroup.cs",
               "RelativeDocumentMoniker": "Harmony\\XUiC_ElectricityLampsWindowGroup.cs",
               "ToolTip": "C:\\Users\\Chris\\Desktop\\Games\\7 Days to Die\\GitHub\\ElectricityLamps\\Harmony\\XUiC_ElectricityLampsWindowGroup.cs",
               "RelativeToolTip": "Harmony\\XUiC_ElectricityLampsWindowGroup.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAQwDcAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-07T08:51:45.997Z",
+              "WhenOpened": "2026-05-07T11:20:24.863Z",
               "EditorCaption": ""
             }
           ]

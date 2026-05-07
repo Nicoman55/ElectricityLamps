@@ -1,7 +1,7 @@
 ﻿using System.Globalization;
 using UnityEngine;
 
-namespace ColoredLights_Port
+namespace ElectricityLamps
 {
     // Handles the UI controls for editing electricity lamp settings window.
     // Retrieves data from the associated TileEntityElectricityLightBlock and
@@ -362,7 +362,7 @@ namespace ColoredLights_Port
         {
             if (this.TileEntity == null)
             {
-                //Debug.Log("[ColoredLights] Headroom: TileEntity is null");
+                //Debug.Log("[ElectricityLamps] Headroom: TileEntity is null");
                 return int.MaxValue;
             }
 
@@ -370,13 +370,13 @@ namespace ColoredLights_Port
                                        ?? this.TileEntity.PowerItem as PowerConsumer;
             if (powerConsumer == null)
             {
-                //Debug.Log("[ColoredLights] Headroom: PowerConsumer is null");
+                //Debug.Log("[ElectricityLamps] Headroom: PowerConsumer is null");
                 return int.MaxValue;
             }
 
             if (powerConsumer.Parent == null)
             {
-                //Debug.Log("[ColoredLights] Headroom: Parent is null");
+                //Debug.Log("[ElectricityLamps] Headroom: Parent is null");
                 return int.MaxValue;
             }
 
@@ -395,7 +395,7 @@ namespace ColoredLights_Port
 
             if (source == null)
             {
-                //Debug.Log("[ColoredLights] Headroom: No PowerSource found in parent chain");
+                //Debug.Log("[ElectricityLamps] Headroom: No PowerSource found in parent chain");
                 return int.MaxValue;
             }
 
@@ -403,7 +403,7 @@ namespace ColoredLights_Port
             while (source.Parent is PowerSource parentSource)
                 source = parentSource;
 
-            //Debug.Log($"[ColoredLights] Root type: {source.GetType().Name}");
+            //Debug.Log($"[ElectricityLamps] Root type: {source.GetType().Name}");
 
             // Try OCB path via reflection
             var sourceType = source.GetType();
@@ -411,7 +411,7 @@ namespace ColoredLights_Port
             var gridDemandField = sourceType.GetField("GridConsumerDemand");
             var consumerDemandField = sourceType.GetField("ConsumerDemand");
 
-            //Debug.Log($"[ColoredLights] OCB fields found: MaxGridProduction={maxGridField != null}, GridConsumerDemand={gridDemandField != null}, ConsumerDemand={consumerDemandField != null}");
+            //Debug.Log($"[ElectricityLamps] OCB fields found: MaxGridProduction={maxGridField != null}, GridConsumerDemand={gridDemandField != null}, ConsumerDemand={consumerDemandField != null}");
 
             if (maxGridField != null && gridDemandField != null && consumerDemandField != null)
             {
@@ -421,14 +421,14 @@ namespace ColoredLights_Port
                 int totalDemand = gridDemand + consumerDemand;
                 int otherDemand = totalDemand - (int)powerConsumer.RequiredPower;
                 int headroom = maxGrid - otherDemand - (int)this.TileEntity.PowerUsed;
-                //Debug.Log($"[ColoredLights] OCB path: MaxGrid={maxGrid}, GridDemand={gridDemand}, ConsumerDemand={consumerDemand}, RequiredPower={powerConsumer.RequiredPower}, PowerUsed={this.TileEntity.PowerUsed}, Headroom={headroom}");
+                //Debug.Log($"[ElectricityLamps] OCB path: MaxGrid={maxGrid}, GridDemand={gridDemand}, ConsumerDemand={consumerDemand}, RequiredPower={powerConsumer.RequiredPower}, PowerUsed={this.TileEntity.PowerUsed}, Headroom={headroom}");
                 return headroom;
             }
 
             // Vanilla path
             int otherConsumers = (int)source.LastPowerUsed - (int)powerConsumer.RequiredPower;
             int vanillaHeadroom = (int)source.MaxOutput - otherConsumers - (int)this.TileEntity.PowerUsed;
-            //Debug.Log($"[ColoredLights] Vanilla path: MaxOutput={source.MaxOutput}, LastPowerUsed={source.LastPowerUsed}, RequiredPower={powerConsumer.RequiredPower}, PowerUsed={this.TileEntity.PowerUsed}, Headroom={vanillaHeadroom}");
+            //Debug.Log($"[ElectricityLamps] Vanilla path: MaxOutput={source.MaxOutput}, LastPowerUsed={source.LastPowerUsed}, RequiredPower={powerConsumer.RequiredPower}, PowerUsed={this.TileEntity.PowerUsed}, Headroom={vanillaHeadroom}");
             return vanillaHeadroom;
         }
 
@@ -438,7 +438,7 @@ namespace ColoredLights_Port
         {
             int headroom = GetAvailablePowerHeadroom();
 
-            //Debug.Log($"[ColoredLights] Headroom: {headroom}, PowerUsed: {this.TileEntity?.PowerUsed ?? 0}");
+            //Debug.Log($"[ElectricityLamps] Headroom: {headroom}, PowerUsed: {this.TileEntity?.PowerUsed ?? 0}");
 
             // Warn when there is no headroom left (network is at or over capacity)
             bool isExceeding = headroom != int.MaxValue && headroom <= 0;

@@ -1,7 +1,7 @@
 ﻿using Audio;
 using UnityEngine;
 
-namespace ColoredLights_Port
+namespace ElectricityLamps
 {
     // UI window group controller for the custom electricity lamps menu.
     // Connects the selected TileEntityElectricityLightBlock to the stats UI,
@@ -11,7 +11,7 @@ namespace ColoredLights_Port
     {
         private XUiC_ElectricityLampsStats ElectricityLampsStats;
         private TileEntityElectricityLightBlock tileEntity;
-
+        
         // Initializes the window group and links the stats controller to this owner.
         public override void Init()
         {
@@ -53,6 +53,7 @@ namespace ColoredLights_Port
             //{
             //    Debug.Log("LightRange: " + this.TileEntity.LightRange + " | LightIntensity: " + this.TileEntity.LightIntensity);
             //    Debug.Log("BlockType: " + this.TileEntity.GetChunk().GetBlock(this.TileEntity.localChunkPos).type);
+            // just a test
             //}
             bool shouldOpenHiddenViewComponent = base.ViewComponent != null && !base.ViewComponent.IsVisible;
             if (shouldOpenHiddenViewComponent)

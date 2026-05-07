@@ -2,7 +2,7 @@
 using System.IO;
 using UnityEngine;
 
-namespace ColoredLights_Port
+namespace ElectricityLamps
 {
     // Custom powered tile entity for electricity-based light blocks.
     // Stores configurable light values such as color, Kelvin temperature, range,

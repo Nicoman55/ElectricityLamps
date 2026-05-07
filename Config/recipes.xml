@@ -1,7 +1,7 @@
 <NicosElectricMods>
     <append xpath="/recipes">
-		<recipe name="ColoredLightsVariantHelper" count="1" craft_area="workbench" craft_time="60" tags="perkAdvancedEngineering,learnable,workbenchCrafting,ColoredLightsVariantHelper">
-		<!-- <recipe name="ColoredLightsVariantHelper" count="1" craft_area="workbench" craft_time="1" tags="perkAdvancedEngineering,learnable,workbenchCrafting,ColoredLightsVariantHelper"> -->
+		<recipe name="ElectricityLampsVariantHelper" count="1" craft_area="workbench" craft_time="60" tags="perkAdvancedEngineering,learnable,workbenchCrafting,ElectricityLampsVariantHelper">
+		<!-- <recipe name="ElectricityLampsVariantHelper" count="1" craft_area="workbench" craft_time="1" tags="perkAdvancedEngineering,learnable,workbenchCrafting,ElectricityLampsVariantHelper"> -->
             <ingredient name="resourceElectricParts" count="12"/>
             <ingredient name="resourceForgedIron" count="10"/>
             <ingredient name="resourceScrapPolymers" count="5"/>

@@ -2,10 +2,10 @@
 	<append xpath="/blocks">
 
 		<!--  Root Block  -->
-		<block name="ColoredLights">
+		<block name="ElectricityLamps">
 			<property name="Extends" value="lightPorchWhite"/>
 			<property name="CreativeMode" value="None"/>
-			<property name="Class" value="ColoredLights_Port.BlockElectricityLight, ColoredLights_Port"/>
+			<property name="Class" value="ElectricityLamps.BlockElectricityLight, ElectricityLamps"/>
 			<property name="TakeDelay" value="5"/>
 			<property name="MaxDamage" value="500"/>
 			<property name="SellableToTrader" value="true"/>
@@ -36,7 +36,7 @@
 				<property name="resourceForgedIron" value="2"/>
 				<property name="resourceElectricParts" value="6"/>
 			</property>
-			<drop event="Harvest" name="ColoredLightsVariantHelper" count="1" tag="salvageHarvest"/>
+			<!-- <drop event="Harvest" name="ElectricityLampsVariantHelper" count="1" tag="salvageHarvest"/> -->
 			<drop event="Destroy" count="0"/>
 			<property name="Stacknumber" value="20"/>
 			<property name="Place" value="TowardsPlacerInverted"/>
@@ -44,9 +44,9 @@
 		</block>
 
 		<!--  IndustrialLights  -->
-		<block name="Colored_IndustrialMountedWall">
+		<block name="ElectricityLamps_IndustrialMountedWall">
 			<property name="CreativeMode" value="Player"/>
-			<property name="Extends" value="ColoredLights"/>
+			<property name="Extends" value="ElectricityLamps"/>
 			<property name="CustomIcon" value="lightIndustrialMountedWall"/>
 			<property name="Model" value="@:Entities/Electrical/lightIndustrialMountedWallPrefab.prefab"/>
 			<property name="Shape" value="ModelEntity"/>
@@ -54,9 +54,9 @@
 			<property name="DescriptionKey" value="ocbCustomLight01Desc"/>
 		</block>
 		
-		<block name="Colored_Industrial">
+		<block name="ElectricityLamps_Industrial">
 			<property name="CreativeMode" value="Player"/>
-			<property name="Extends" value="ColoredLights"/>
+			<property name="Extends" value="ElectricityLamps"/>
 			<property name="CustomIcon" value="lightIndustrial"/>
 			<property name="Model" value="@:Entities/Electrical/lightIndustrialPrefab.prefab"/>
 			<property name="Shape" value="ModelEntity"/>
@@ -64,9 +64,9 @@
 			<property name="HandleFace" value="Bottom"/>
 		</block>
 
-		<block name="Colored_IndustrialHangingWhite">
+		<block name="ElectricityLamps_IndustrialHangingWhite">
 			<property name="CreativeMode" value="Player"/>
-			<property name="Extends" value="ColoredLights"/>
+			<property name="Extends" value="ElectricityLamps"/>
 			<property name="CustomIcon" value="lightIndustrialHangingWhite"/>
 			<property name="Model" value="@:Entities/Electrical/lightIndustrialHangingPrefab.prefab"/>			
 			<property name="Shape" value="ModelEntity"/>
@@ -74,9 +74,9 @@
 	        <property name="TintColor" value="A3A399"/>
 		</block>
 		
-		<block name="Colored_industrial01">
+		<block name="ElectricityLamps_industrial01">
 			<property name="CreativeMode" value="Player"/>
-			<property name="Extends" value="ColoredLights"/>
+			<property name="Extends" value="ElectricityLamps"/>
 			<property name="CustomIcon" value="industrialLight01"/>
 			<property name="Model" value="@:Entities/Electrical/lightWallPrefab.prefab"/>
 			<property name="Shape" value="ModelEntity"/>
@@ -84,27 +84,27 @@
 		</block>
 		
 		<!--  CeilingLights  -->		
-		<block name="Colored_CeilingBulbMountWhite">
+		<block name="ElectricityLamps_CeilingBulbMountWhite">
 		    <property name="CreativeMode" value="Player"/>
-			<property name="Extends" value="ColoredLights"/>
+			<property name="Extends" value="ElectricityLamps"/>
 			<property name="CustomIcon" value="lightCeilingBulbMountWhite"/>
 			<property name="Model" value="@:Entities/Lighting/lightCeilingBulbMountPrefab.prefab"/>
 			<property name="Shape" value="ModelEntity"/>
 			<property name="HandleFace" value="Top"/>
 		</block>
 		
-		<block name="Colored_CeilingBulbSocketWhite">
+		<block name="ElectricityLamps_CeilingBulbSocketWhite">
 		    <property name="CreativeMode" value="Player"/>
-			<property name="Extends" value="ColoredLights"/>
+			<property name="Extends" value="ElectricityLamps"/>
 			<property name="CustomIcon" value="lightCeilingBulbSocketWhite"/>
 			<property name="Model" value="@:Entities/Lighting/lightCeilingBulbSocketPrefab.prefab"/>
 			<property name="Shape" value="ModelEntity"/>
 			<property name="HandleFace" value="Top"/>
 		</block>
 		
-		<block name="Colored_fluorescentBayIntact">
+		<block name="ElectricityLamps_fluorescentBayIntact">
 		    <property name="CreativeMode" value="Player"/>
-			<property name="Extends" value="ColoredLights"/>
+			<property name="Extends" value="ElectricityLamps"/>
 			<property name="CustomIcon" value="fluorescentLightBayIntact"/>
 			
 			<!-- <property name="LightMode" value="3"/> -->
@@ -122,18 +122,18 @@
 			<property name="HandleFace" value="Top"/>
 		</block>
 		
-		<block name="Colored_Ceiling07">
+		<block name="ElectricityLamps_Ceiling07">
 		    <property name="CreativeMode" value="Player"/>
-			<property name="Extends" value="ColoredLights"/>
+			<property name="Extends" value="ElectricityLamps"/>
 			<property name="CustomIcon" value="lightCeiling07"/>
 			<property name="Model" value="@:Entities/Electrical/lightCeiling2PlayerPrefab.prefab"/>
 			<property name="Shape" value="ModelEntity"/>
 			<property name="HandleFace" value="Top"/>
 		</block>	
 		  		  
-		<block name="Colored_fluorescent">
+		<block name="ElectricityLamps_fluorescent">
 		    <property name="CreativeMode" value="Player"/>
-			<property name="Extends" value="ColoredLights"/>
+			<property name="Extends" value="ElectricityLamps"/>
 			<property name="CustomIcon" value="fluorescentLight"/>
 			
 			<!-- <property name="LightMode" value="3"/> -->
@@ -149,9 +149,9 @@
 			<property name="HandleFace" value="Top"/>
 		</block>
 		
-		<block name="Colored_ceiling02">
+		<block name="ElectricityLamps_ceiling02">
 		    <property name="CreativeMode" value="Player"/>
-			<property name="Extends" value="ColoredLights"/>
+			<property name="Extends" value="ElectricityLamps"/>
 			<property name="CustomIcon" value="ceilingLight02"/>
 			
 			<!-- <property name="LightMode" value="3"/> -->
@@ -167,9 +167,9 @@
 			<property name="HandleFace" value="Top"/>
 		</block>
 		
-		<block name="Colored_ceiling02Brass">
+		<block name="ElectricityLamps_ceiling02Brass">
 		    <property name="CreativeMode" value="Player"/>
-			<property name="Extends" value="ColoredLights"/>
+			<property name="Extends" value="ElectricityLamps"/>
 			<property name="CustomIcon" value="ceilingLight02Brass"/>
 						
 			<!-- <property name="LightMode" value="3"/> -->
@@ -185,9 +185,9 @@
 			<property name="HandleFace" value="Top"/>
 		</block>
 		
-		<block name="Colored_ceiling04">
+		<block name="ElectricityLamps_ceiling04">
 		    <property name="CreativeMode" value="Player"/>
-			<property name="Extends" value="ColoredLights"/>
+			<property name="Extends" value="ElectricityLamps"/>
 			<property name="CustomIcon" value="ceilingLight04"/>
 					
 			<!-- <property name="LightMode" value="3"/> -->
@@ -202,9 +202,9 @@
 			<property name="HandleFace" value="Top"/>
 		</block>
 		
-		<block name="Colored_ceiling05">
+		<block name="ElectricityLamps_ceiling05">
 		    <property name="CreativeMode" value="Player"/>
-			<property name="Extends" value="ColoredLights"/>
+			<property name="Extends" value="ElectricityLamps"/>
 			<property name="CustomIcon" value="ceilingLight05"/>
 						
 			<!-- <property name="LightMode" value="3"/> -->
@@ -220,9 +220,9 @@
 			<property name="HandleFace" value="Top"/>
 		</block>
 		
-		<block name="Colored_ceiling05Brass">
+		<block name="ElectricityLamps_ceiling05Brass">
 		    <property name="CreativeMode" value="Player"/>
-			<property name="Extends" value="ColoredLights"/>
+			<property name="Extends" value="ElectricityLamps"/>
 			<property name="CustomIcon" value="ceilingLight05Brass"/>
 									
 			<!-- <property name="LightMode" value="3"/> -->
@@ -238,9 +238,9 @@
 			<property name="HandleFace" value="Top"/>
 		</block>
 		
-		<block name="Colored_ceilingFan">
+		<block name="ElectricityLamps_ceilingFan">
 		    <property name="CreativeMode" value="Player"/>
-			<property name="Extends" value="ColoredLights"/>
+			<property name="Extends" value="ElectricityLamps"/>
 			<property name="CustomIcon" value="ceilingFanLight"/>
 												
 			<!-- <property name="LightMode" value="3"/> -->
@@ -257,10 +257,10 @@
 		</block>
 
 		<!--SpotLights-->
-		<block name="Colored_spotPlayer">
+		<block name="ElectricityLamps_spotPlayer">
 		    <property name="CreativeMode" value="Player"/>
-			<property name="Class" value="ColoredLights_Port.BlockElectricityLight, ColoredLights_Port"/>
-			<property name="Extends" value="ColoredLights"/>
+			<property name="Class" value="ElectricityLamps.BlockElectricityLight, ElectricityLamps"/>
+			<property name="Extends" value="ElectricityLamps"/>
 			<property name="CustomIcon" value="spotlightPlayer"/>
 			<property name="LightMode" value="3"/>
 			<property name="CanAimSpotlight" value="true"/>
@@ -304,9 +304,9 @@
 		</block>
 		
 		<!-- Yellow work light -->
-		<block name="Colored_workPOIyellow">
+		<block name="ElectricityLamps_workPOIyellow">
 			<property name="CreativeMode" value="Player"/>
-			<property name="Extends" value="ColoredLights" param1="HandleFace"/>
+			<property name="Extends" value="ElectricityLamps" param1="HandleFace"/>
 			<property name="DisplayType" value="blockMulti"/>
 			<property name="CustomIcon" value="workLightPOIWhite"/>
 			<property name="LightMode" value="3"/>
@@ -329,34 +329,34 @@
 		</block>
 		
 		<!-- Black work light -->
-		<block name="Colored_workPOIblack">
-			<property name="Extends" value="Colored_workPOIyellow" param1="HandleFace"/>
+		<block name="ElectricityLamps_workPOIblack">
+			<property name="Extends" value="ElectricityLamps_workPOIyellow" param1="HandleFace"/>
 			<property name="CustomIconTint" value="45433D"/>
 			<property name="TintColor" value="45433D"/>
 		</block>
 		
 		<!--  NeonLights  -->
-		<block name="Colored_DisplayXRayEmpty">
+		<block name="ElectricityLamps_DisplayXRayEmpty">
 		    <property name="CreativeMode" value="Player"/>
-			<property name="Extends" value="ColoredLights"/>
+			<property name="Extends" value="ElectricityLamps"/>
 			<property name="CustomIcon" value="lightDisplayXRayEmpty"/>
 			<property name="Model" value="@:Entities/Electrical/lightDisplayXRayEmptyPrefab.prefab"/>
 			<property name="Shape" value="ModelEntity"/>
 			<property name="HandleFace" value="South"/>
 		</block>	
 		
-		<block name="Colored_DisplayXRayFull">
+		<block name="ElectricityLamps_DisplayXRayFull">
 		    <property name="CreativeMode" value="Player"/>
-			<property name="Extends" value="ColoredLights"/>
+			<property name="Extends" value="ElectricityLamps"/>
 			<property name="CustomIcon" value="lightDisplayXRayFull"/>
 			<property name="Model" value="@:Entities/Electrical/lightDisplayXRayFullPrefab.prefab"/>
 			<property name="Shape" value="ModelEntity"/>
 			<property name="HandleFace" value="South"/>
 		</block>	
 		
-		<block name="Colored_signCrosswalk">
+		<block name="ElectricityLamps_signCrosswalk">
 		    <property name="CreativeMode" value="Player"/>
-			<property name="Extends" value="ColoredLights"/>
+			<property name="Extends" value="ElectricityLamps"/>
 			<property name="CustomIcon" value="signCrosswalk"/>
 			<property name="Model" value="@:Entities/StreetSigns/signCrosswalkPrefab.prefab"/>
 			<property name="Shape" value="ModelEntity"/>
@@ -364,63 +364,63 @@
 			<property name="HandleFace" value="South"/>
 		</block>	
 		
-		<block name="Colored_signExitFrameMountHigh">
+		<block name="ElectricityLamps_signExitFrameMountHigh">
 		    <property name="CreativeMode" value="Player"/>
-			<property name="Extends" value="ColoredLights"/>
+			<property name="Extends" value="ElectricityLamps"/>
 			<property name="CustomIcon" value="signExitFrameMountHigh"/>
 			<property name="Model" value="@:Entities/Lighting/signExitFrameMountHighPrefab.prefab"/>
 			<property name="Shape" value="ModelEntity"/>
 			<property name="HandleFace" value="South"/>
 		</block>	
 		
-		<block name="Colored_signExitLightOffset">
+		<block name="ElectricityLamps_signExitLightOffset">
 		    <property name="CreativeMode" value="Player"/>
-			<property name="Extends" value="ColoredLights"/>
+			<property name="Extends" value="ElectricityLamps"/>
 			<property name="CustomIcon" value="signExitLightOffset"/>
 			<property name="Model" value="@:Entities/Lighting/signExitOffsetPrefab.prefab"/>
 			<property name="Shape" value="ModelEntity"/>
 			<property name="HandleFace" value="South"/>
 		</block>	
 		
-		<block name="Colored_signExitWallMountHigh">
+		<block name="ElectricityLamps_signExitWallMountHigh">
 		    <property name="CreativeMode" value="Player"/>
-			<property name="Extends" value="ColoredLights"/>
+			<property name="Extends" value="ElectricityLamps"/>
 			<property name="CustomIcon" value="signExitWallMountHigh"/>
 			<property name="Model" value="@:Entities/Lighting/signExitWallMountHighPrefab.prefab"/>
 			<property name="Shape" value="ModelEntity"/>
 			<property name="HandleFace" value="South"/>
 		</block>	
 		
-		<block name="Colored_signNeonColdBeer">
+		<block name="ElectricityLamps_signNeonColdBeer">
 		    <property name="CreativeMode" value="Player"/>
-			<property name="Extends" value="ColoredLights"/>
+			<property name="Extends" value="ElectricityLamps"/>
 			<property name="CustomIcon" value="signNeonColdBeer"/>
 			<property name="Model" value="@:Entities/Electrical/signNeonColdBeerPrefab.prefab"/>
 			<property name="Shape" value="ModelEntity"/>
 			<property name="HandleFace" value="South"/>
 		</block>	
 		
-		<block name="Colored_signPillsLogoSmall">
+		<block name="ElectricityLamps_signPillsLogoSmall">
 		    <property name="CreativeMode" value="Player"/>
-			<property name="Extends" value="ColoredLights"/>
+			<property name="Extends" value="ElectricityLamps"/>
 			<property name="CustomIcon" value="signPillsLogoSmall"/>
 			<property name="Model" value="@:Entities/Lighting/sign_pills_logo_smallPrefab.prefab"/>
 			<property name="Shape" value="ModelEntity"/>
 			<property name="HandleFace" value="South"/>
 		</block>	
 		
-		<block name="Colored_signShopOpenSwitch">
+		<block name="ElectricityLamps_signShopOpenSwitch">
 		    <property name="CreativeMode" value="Player"/>
-			<property name="Extends" value="ColoredLights"/>
+			<property name="Extends" value="ElectricityLamps"/>
 			<property name="CustomIcon" value="signShopOpenSwitch"/>
 			<property name="Model" value="@:Entities/Signs/sign_open_Prefab.prefab"/>
 			<property name="Shape" value="ModelEntity"/>
 			<property name="HandleFace" value="South"/>
 		</block>	
 		
-		<block name="Colored_PanelLEDWhite">
+		<block name="ElectricityLamps_PanelLEDWhite">
 		    <property name="CreativeMode" value="Player"/>
-			<property name="Extends" value="ColoredLights"/>
+			<property name="Extends" value="ElectricityLamps"/>
 			<property name="CustomIcon" value="lightPanelLEDWhite"/>
 			<property name="Model" value="@:Entities/Electrical/lightPanelLEDPrefab.prefab"/>
 			<property name="Shape" value="ModelEntity"/>
@@ -429,43 +429,43 @@
 		</block>
 		
 		<!--  DeskLamps  -->
-		<block name="Colored_deskLamp">
+		<block name="ElectricityLamps_deskLamp">
 		    <property name="CreativeMode" value="Player"/>
-			<property name="Extends" value="ColoredLights"/>
+			<property name="Extends" value="ElectricityLamps"/>
 			<property name="CustomIcon" value="deskLampLight"/>
 			<property name="Model" value="@:Entities/Lighting/desk_lampPrefab.prefab"/>
 			<property name="Shape" value="ModelEntity"/>
 		</block>
 		
-		<block name="Colored_deskLamp02White">
+		<block name="ElectricityLamps_deskLamp02White">
 		    <property name="CreativeMode" value="Player"/>
-			<property name="Extends" value="ColoredLights"/>
+			<property name="Extends" value="ElectricityLamps"/>
 			<property name="CustomIcon" value="deskLampLight02White"/>
 			<property name="Model" value="@:Entities/Lighting/lampDeskPrefab.prefab"/>
 			<property name="Shape" value="ModelEntity"/>
 			<property name="ModelOffset" value="0,0,0"/>
 		</block>	
 		  		  
-		<block name="Colored_endTableLamp">
+		<block name="ElectricityLamps_endTableLamp">
 		    <property name="CreativeMode" value="Player"/>
-			<property name="Extends" value="ColoredLights"/>
+			<property name="Extends" value="ElectricityLamps"/>
 			<property name="CustomIcon" value="endTableLamp"/>
 			<property name="Model" value="@:Entities/Lighting/endTableLampPrefab.prefab"/>
 			<property name="Shape" value="ModelEntity"/>
 		</block>	
 		  		  
-		<block name="Colored_tableLamp01White">
+		<block name="ElectricityLamps_tableLamp01White">
 		    <property name="CreativeMode" value="Player"/>
-			<property name="Extends" value="ColoredLights"/>
+			<property name="Extends" value="ElectricityLamps"/>
 			<property name="CustomIcon" value="tableLampLight01White"/>
 			<property name="Model" value="@:Entities/Lighting/lampTablePrefab.prefab"/>
 			<property name="Shape" value="ModelEntity"/>
 			<property name="ModelOffset" value="0,0,0"/>
 		</block>	
 		  		  
-		<block name="Colored_lanternDecorWhite">
+		<block name="ElectricityLamps_lanternDecorWhite">
 		    <property name="CreativeMode" value="Player"/>
-			<property name="Extends" value="ColoredLights"/>
+			<property name="Extends" value="ElectricityLamps"/>
 			<property name="CustomIcon" value="lanternDecorLightWhite"/>
 			<property name="Model" value="@:Entities/Lighting/lantern_02Prefab.prefab"/>
 			<property name="Shape" value="ModelEntity"/>
@@ -474,9 +474,9 @@
 	        <property name="TintColor" value="A0A09A"/>
 		</block>	
 		  		  
-		<block name="Colored_flashlightDecorWhite">
+		<block name="ElectricityLamps_flashlightDecorWhite">
 		    <property name="CreativeMode" value="Player"/>
-			<property name="Extends" value="ColoredLights"/>
+			<property name="Extends" value="ElectricityLamps"/>
 			<property name="CustomIcon" value="flashlightDecorWhite"/>
 			<property name="Model" value="@:Entities/Lighting/flashlight_02Prefab.prefab"/>
 			<property name="ModelOffset" value="0,0,0"/>
@@ -487,9 +487,9 @@
 		</block>	
 		  		  
 		<!--  PorchLights  -->
-		<block name="Colored_PorchWhite">
+		<block name="ElectricityLamps_PorchWhite">
 		    <property name="CreativeMode" value="Player"/>
-			<property name="Extends" value="ColoredLights"/>
+			<property name="Extends" value="ElectricityLamps"/>
 			<property name="CustomIcon" value="lightPorchWhite"/>
 			<property name="Model" value="@:Entities/Lighting/lightPorchPrefab.prefab"/>
 			<property name="Shape" value="ModelEntity"/>
@@ -498,9 +498,9 @@
 	        <property name="TintColor" value="ABABA4"/>
 		</block>	
 		  		  
-		<block name="Colored_Sconce">
+		<block name="ElectricityLamps_Sconce">
 		    <property name="CreativeMode" value="Player"/>
-			<property name="Extends" value="ColoredLights"/>
+			<property name="Extends" value="ElectricityLamps"/>
 			<property name="CustomIcon" value="lightSconce"/>
 			<property name="Model" value="@:Entities/Electrical/lightSconcePrefab.prefab"/>
 			<property name="Shape" value="ModelEntity"/>
@@ -508,9 +508,9 @@
 			<property name="HandleFace" value="South"/>
 		</block>	
 		  		  
-		<block name="Colored_WallGooseneckWhite">
+		<block name="ElectricityLamps_WallGooseneckWhite">
 		    <property name="CreativeMode" value="Player"/>
-			<property name="Extends" value="ColoredLights"/>
+			<property name="Extends" value="ElectricityLamps"/>
 			<property name="CustomIcon" value="lightWallGooseneckWhite"/>
 			<property name="Model" value="@:Entities/Electrical/lightWallGooseneckPrefab.prefab"/>
 			<property name="Shape" value="ModelEntity"/>
@@ -520,9 +520,9 @@
 		</block>	
 		
 		<!-- StreetLights -->
-		<block name="Colored_roadBarricadeLight">
+		<block name="ElectricityLamps_roadBarricadeLight">
 		    <property name="CreativeMode" value="Player"/>
-			<property name="Extends" value="ColoredLights"/>
+			<property name="Extends" value="ElectricityLamps"/>
 			<property name="CustomIcon" value="roadBarricadeLight"/>
 			<property name="Model" value="@:Entities/Signs/barricadePrefab.prefab"/>
 			<property name="Shape" value="ModelEntity"/>
@@ -531,9 +531,9 @@
 			<property name="DisplayType" value="blockMulti"/>
 		</block>
 		  
-		<block name="Colored_signTrafficLight">
+		<block name="ElectricityLamps_signTrafficLight">
 		    <property name="CreativeMode" value="Player"/>
-			<property name="Extends" value="ColoredLights"/>
+			<property name="Extends" value="ElectricityLamps"/>
 			<property name="CustomIcon" value="signTrafficLight"/>
 			<property name="Model" value="@:Entities/StreetSigns/trafficLightPrefab.prefab"/>
 			<property name="Shape" value="ModelEntity"/>
@@ -542,18 +542,18 @@
 			<property name="TintColor" value="ABABA4"/>
 		</block>
 			
-		<block name="Colored_street01">
+		<block name="ElectricityLamps_street01">
 		    <property name="CreativeMode" value="Player"/>
-			<property name="Extends" value="ColoredLights"/>
+			<property name="Extends" value="ElectricityLamps"/>
 			<property name="CustomIcon" value="streetLight01"/>
 			<property name="Model" value="@:Entities/Lighting/lightStreetLamp01Prefab.prefab"/>
 			<property name="Shape" value="ModelEntity"/>
 			<property name="HandleFace" value="Bottom"/>
 		</block>	
 		  		  		  
-		<block name="Colored_streetClassic">
+		<block name="ElectricityLamps_streetClassic">
 		    <property name="CreativeMode" value="Player"/>
-			<property name="Extends" value="ColoredLights"/>
+			<property name="Extends" value="ElectricityLamps"/>
 			<property name="CustomIcon" value="streetLightClassic"/>
 			<property name="Model" value="@:Entities/Electrical/lightStreetClassicPrefab.prefab"/>
 			<property name="Shape" value="ModelEntity"/>
@@ -561,36 +561,36 @@
 		</block>	
 		  
 		<!--  lanterns  -->		
-		<block name="Colored_lanternOld_01">
+		<block name="ElectricityLamps_lanternOld_01">
 			<property name="CreativeMode" value="Player"/>
-			<property name="Extends" value="ColoredLights"/>
+			<property name="Extends" value="ElectricityLamps"/>
 			<property name="CustomIcon" value="lanternOld_01"/>
 			<property name="Model" value="@:Entities/Lighting/lanternOld_01Prefab.prefab"/>
 			<property name="Shape" value="ModelEntity"/>
 			<property name="HandleFace" value="Bottom"/>
 		</block>
 		
-		<block name="Colored_lanternOld_02">
+		<block name="ElectricityLamps_lanternOld_02">
 			<property name="CreativeMode" value="Player"/>
-			<property name="Extends" value="ColoredLights"/>
+			<property name="Extends" value="ElectricityLamps"/>
 			<property name="CustomIcon" value="lanternOld_02"/>
 			<property name="Model" value="@:Entities/Lighting/lanternOld_02Prefab.prefab"/>
 			<property name="Shape" value="ModelEntity"/>
 			<property name="HandleFace" value="Bottom"/>
 		</block>
 		
-		<block name="Colored_lanternOld_03">
+		<block name="ElectricityLamps_lanternOld_03">
 			<property name="CreativeMode" value="Player"/>
-			<property name="Extends" value="ColoredLights"/>
+			<property name="Extends" value="ElectricityLamps"/>
 			<property name="CustomIcon" value="lanternOld_03"/>
 			<property name="Model" value="@:Entities/Lighting/lanternOld_03Prefab.prefab"/>
 			<property name="Shape" value="ModelEntity"/>
 			<property name="HandleFace" value="Bottom"/>
 		 </block>
 		
-		<block name="Colored_lanternOld_04">
+		<block name="ElectricityLamps_lanternOld_04">
 			<property name="CreativeMode" value="Player"/>
-			<property name="Extends" value="ColoredLights"/>
+			<property name="Extends" value="ElectricityLamps"/>
 			<property name="CustomIcon" value="lanternOld_04"/>
 			<property name="Model" value="@:Entities/Lighting/lanternOld_04Prefab.prefab"/>
 			<property name="Shape" value="ModelEntity"/>
@@ -598,15 +598,15 @@
 		</block>
 
 		<!--  ShapeHelper  -->
-		<block name="ColoredLightsVariantHelper">
-			<property name="Extends" value="ColoredLights"/> 
+		<block name="ElectricityLampsVariantHelper">
+			<property name="Extends" value="ElectricityLamps"/> 
 			<property name="UnlockedBy" value="craftingElectrician"/> 
 			<property name="CustomIcon" value="lightIndustrialMountedWallRed"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="ItemTypeIcon" value="all_blocks"/>
 			<property name="DescriptionKey" value="blockVariantHelperGroupDesc"/>
 			<property name="SelectAlternates" value="true"/>
-			<property name="PlaceAltBlockValue" value="Colored_IndustrialMountedWall,Colored_Industrial,Colored_IndustrialHangingWhite,Colored_signTrafficLight,Colored_roadBarricadeLight,Colored_industrial01,Colored_CeilingBulbMountWhite,Colored_CeilingBulbSocketWhite,Colored_fluorescentBayIntact,Colored_Ceiling07,Colored_fluorescent,Colored_ceiling02,Colored_ceiling02Brass,Colored_ceiling04,Colored_ceiling05,Colored_ceiling05Brass,Colored_ceilingFan,Colored_spotPlayer,Colored_workPOIyellow,Colored_workPOIblack,Colored_DisplayXRayEmpty,Colored_DisplayXRayFull,Colored_signCrosswalk,Colored_signExitFrameMountHigh,Colored_signExitLightOffset,Colored_signExitWallMountHigh,Colored_signNeonColdBeer,Colored_signPillsLogoSmall,Colored_signShopOpenSwitch,Colored_PanelLEDWhite,Colored_deskLamp,Colored_deskLamp02White,Colored_endTableLamp,Colored_tableLamp01White,Colored_lanternDecorWhite,Colored_flashlightDecorWhite,Colored_PorchWhite,Colored_Sconce,Colored_WallGooseneckWhite,Colored_street01,Colored_streetClassic,Colored_lanternOld_01,Colored_lanternOld_02,Colored_lanternOld_03,Colored_lanternOld_04"/>
+			<property name="PlaceAltBlockValue" value="ElectricityLamps_IndustrialMountedWall,ElectricityLamps_Industrial,ElectricityLamps_IndustrialHangingWhite,ElectricityLamps_signTrafficLight,ElectricityLamps_roadBarricadeLight,ElectricityLamps_industrial01,ElectricityLamps_CeilingBulbMountWhite,ElectricityLamps_CeilingBulbSocketWhite,ElectricityLamps_fluorescentBayIntact,ElectricityLamps_Ceiling07,ElectricityLamps_fluorescent,ElectricityLamps_ceiling02,ElectricityLamps_ceiling02Brass,ElectricityLamps_ceiling04,ElectricityLamps_ceiling05,ElectricityLamps_ceiling05Brass,ElectricityLamps_ceilingFan,ElectricityLamps_spotPlayer,ElectricityLamps_workPOIyellow,ElectricityLamps_workPOIblack,ElectricityLamps_DisplayXRayEmpty,ElectricityLamps_DisplayXRayFull,ElectricityLamps_signCrosswalk,ElectricityLamps_signExitFrameMountHigh,ElectricityLamps_signExitLightOffset,ElectricityLamps_signExitWallMountHigh,ElectricityLamps_signNeonColdBeer,ElectricityLamps_signPillsLogoSmall,ElectricityLamps_signShopOpenSwitch,ElectricityLamps_PanelLEDWhite,ElectricityLamps_deskLamp,ElectricityLamps_deskLamp02White,ElectricityLamps_endTableLamp,ElectricityLamps_tableLamp01White,ElectricityLamps_lanternDecorWhite,ElectricityLamps_flashlightDecorWhite,ElectricityLamps_PorchWhite,ElectricityLamps_Sconce,ElectricityLamps_WallGooseneckWhite,ElectricityLamps_street01,ElectricityLamps_streetClassic,ElectricityLamps_lanternOld_01,ElectricityLamps_lanternOld_02,ElectricityLamps_lanternOld_03,ElectricityLamps_lanternOld_04"/>
 			<property name="Group" value="Science,TCScience"/>
 			<property name="FilterTags" value="MC_playerBlocks,SC_playerHelpers,SC_lighting"/>
 			<property name="SellableToTrader" value="false"/>

@@ -1,6 +1,6 @@
 <configs>
 	<append xpath="/xui/ruleset[@name='default']" >
-		<window_group name="electricitylamps" controller="ColoredLights_Port.XUiC_ElectricityLampsWindowGroup, ColoredLights_Port">
+		<window_group name="electricitylamps" controller="ElectricityLamps.XUiC_ElectricityLampsWindowGroup, ElectricityLamps">
 			<window name="windowElectricityLampsStats" />
 		</window_group>
 	</append>

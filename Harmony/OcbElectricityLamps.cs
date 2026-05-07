@@ -2,7 +2,7 @@ using HarmonyLib;
 using System.Reflection;
 using UnityEngine;
 
-namespace ColoredLights_Port
+namespace ElectricityLamps
 {
     // Entry point for the mod that initializes all Harmony patches.
     // Hooks into the game’s mod loading system and applies custom behavior

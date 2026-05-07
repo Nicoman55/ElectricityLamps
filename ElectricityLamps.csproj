@@ -7,8 +7,8 @@
     <ProjectGuid>{2A46E145-92ED-4B6A-90EF-C5D41B4A01DF}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ColoredLights_Port</RootNamespace>
-    <AssemblyName>ColoredLights_Port</AssemblyName>
+    <RootNamespace>ElectricityLamps</RootNamespace>
+    <AssemblyName>ElectricityLamps</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -72,12 +72,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <!-- <Compile Include="BlockElectricityLight.cs" /> -->
-    <!-- <Compile Include="TileEntityElectricityLightBlock.cs" /> -->
-    <!-- <Compile Include="OcbElectricityLamps.cs" /> -->
-    <!-- <Compile Include="Properties\AssemblyInfo.cs" /> -->
-    <!-- <Compile Include="XUiC_ElectricityLampsStats.cs" /> -->
-    <!-- <Compile Include="XUiC_ElectricityLampsWindowGroup.cs" /> -->
 	<Compile Include="Harmony\BlockElectricityLight.cs" />
 	<Compile Include="Harmony\TileEntityElectricityLightBlock.cs" />
 	<Compile Include="Harmony\OcbElectricityLamps.cs" />

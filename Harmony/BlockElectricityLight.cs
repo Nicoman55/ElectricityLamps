@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace ColoredLights_Port
+namespace ElectricityLamps
 {
     // Custom powered block that represents an electricity light in the world.
     // Handles placement, interaction and links the block to its corresponding
@@ -137,7 +137,8 @@ namespace ColoredLights_Port
                 case "aim":
                     return CanAimSpotlight(_blockValue) && TryAimSpotlight(_world, _cIdx, _blockPos, _player);
                 case "take":
-                    TakeItemWithTimer(_cIdx, _blockPos, _blockValue, _player);
+                    // TakeItemWithTimer(_cIdx, _blockPos, _blockValue, _player);
+                    TakeItemWithTimerAsHelper(_cIdx, _blockPos, _blockValue, _player);
                     return true;
                 default:
                     return false;
@@ -317,9 +318,8 @@ namespace ColoredLights_Port
             return (byte)((meta & ~LightEnabledMetaBit) | (isEnabled ? LightEnabledMetaBit : 0));
         }
 
-        // Picks up the light block and returns the ColoredLightsVariantHelper
-        // instead of the specific light variant, allowing the player to
-        // choose a different light type on next placement.
+        // Starts the take timer but returns the ElectricityLampsVariantHelper
+        // instead of the specific light variant when the timer completes.
         private void TakeItemWithTimerAsHelper(int _cIdx, Vector3i _blockPos, BlockValue _blockValue, EntityPlayerLocal _player)
         {
             if (_blockValue.damage > 0)
@@ -336,7 +336,9 @@ namespace ColoredLights_Port
             childByType.SetTimer(this.TakeDelay, timerEventData, -1f, "");
         }
 
-        // Timer callback that replaces the block with the ColoredLightsVariantHelper item.
+        // Timer callback that removes the placed light and returns the
+        // ElectricityLampsVariantHelper to the player's inventory instead
+        // of the specific light variant that was placed.
         private void TakeAsHelperEvent(TimerEventData timerData)
         {
             World world = GameManager.Instance.World;
@@ -359,9 +361,8 @@ namespace ColoredLights_Port
             }
 
             LocalPlayerUI uiforPlayer = LocalPlayerUI.GetUIForPlayer(player);
-            // Return ColoredLightsVariantHelper instead of the specific block
             ItemStack itemStack = new ItemStack(
-                new ItemValue(Block.GetBlockByName("ColoredLightsVariantHelper").blockID), 1);
+                new ItemValue(Block.GetBlockByName("ElectricityLampsVariantHelper").blockID), 1);
             if (!uiforPlayer.xui.PlayerInventory.AddItem(itemStack))
                 uiforPlayer.xui.PlayerInventory.DropItem(itemStack);
             world.SetBlockRPC(cIdx, blockPos, BlockValue.Air);

@@ -1,10 +1,10 @@
 <config>
 	<insertAfter xpath="/progression/crafting_skills/crafting_skill[@name='craftingElectrician']/display_entry[@unlock_level='25']">
-		<display_entry icon="lightIndustrialMountedWallRed" name_key="coloredLightsT1" has_quality="false" unlock_level="25">
-			<unlock_entry item="ColoredLightsVariantHelper" unlock_tier="1"/>
+		<display_entry icon="lightIndustrialMountedWallRed" name_key="ElectricityLampsT1" has_quality="false" unlock_level="25">
+			<unlock_entry item="ElectricityLampsVariantHelper" unlock_tier="1"/>
 		</display_entry>
 	</insertAfter>
 	<append xpath="/progression/crafting_skills/crafting_skill[@name='craftingElectrician']/effect_group">
-		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="25,100" value="1" tags="ColoredLightsVariantHelper"/>
+		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="25,100" value="1" tags="ElectricityLampsVariantHelper"/>
 	</append>
 </config>
