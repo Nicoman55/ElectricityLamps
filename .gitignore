@@ -2,6 +2,7 @@
 /obj
 /packages
 /0_WORK
+/resources
 .vstags
 *.pdb
 packages.config
